@@ -7,7 +7,7 @@ import json, requests, sys, pprint
 zip = ' '.join(sys.argv[1:])
 
 # Download the JSON data from OpenWeatherMap.org's API.
-url = 'https://api.openweathermap.org/data/2.5/weather?zip=%s&appid=29b0bae73452e939b5e9067b947a3da5' % (zip)
+url = 'https://api.openweathermap.org/data/2.5/weather?zip=%s&appid=<INSERT API CODE HERE>' % (zip)
 
 response = requests.get(url)
 
